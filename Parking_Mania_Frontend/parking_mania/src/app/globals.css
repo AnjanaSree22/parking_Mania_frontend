@@ -3,3 +3,10 @@
   width: 100%;
   
 }
+*{
+  color: white;
+  font-family: "IBM Plex Sans";
+  font-weight: 300;
+  font-size: large;
+  
+}

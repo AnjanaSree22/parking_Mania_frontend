@@ -1,11 +1,11 @@
 import { Col, Row, Image, FloatButton } from "antd";
-import { QuestionCircleOutlined, LoginOutlined, SignatureOutlined } from '@ant-design/icons';
+import { QuestionCircleOutlined, LoginOutlined, SignatureOutlined, HomeFilled } from '@ant-design/icons';
 
 import React from "react";
 import Usercard from "./userCards";
 
 const Homepage = () => {
-
+ 
     const showInfoDocument =()=>{
         console.log('info docs')
     }
@@ -17,6 +17,8 @@ const Homepage = () => {
                 <FloatButton onClick={showInfoDocument} icon={<QuestionCircleOutlined />}  type="primary" style={{ right: 24 }} />
                 <FloatButton  icon={<LoginOutlined />}  type="primary" style={{ right: 100 }} />
                 <FloatButton  icon={<SignatureOutlined />}  type="primary" style={{ right: 176 }} />
+
+                <FloatButton  icon={<HomeFilled />}  type="primary" style={{ right: 252 }} />
 
             </Row>
         </div>
