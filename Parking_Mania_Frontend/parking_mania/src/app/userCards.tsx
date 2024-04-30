@@ -5,14 +5,20 @@ import OwnerPage from "./ownerPage";
 
 const UserCard = () => {
     const [redirectToOwnerPage, setRedirectToOwnerPage] = useState(false);
+ 
 
     const handleOwnerCardClick = () => {
         setRedirectToOwnerPage(true);
     };
 
+  
     if (redirectToOwnerPage) {
         return <OwnerPage />;
     }
+    
+
+
+
 
     return (
         <Col>

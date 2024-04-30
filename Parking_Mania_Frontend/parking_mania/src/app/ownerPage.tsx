@@ -1,7 +1,6 @@
 import { Card, Col, Row, Space } from "antd";
 import OwnerSignupPage from "./ownerSignupPage";
 import React, { useState } from "react";
-import SuccessMessage from "./successMessage";
 
 const OwnerPage = () => {
     const cardData = [
